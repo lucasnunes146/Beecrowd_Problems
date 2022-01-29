@@ -1,0 +1,13 @@
+num = input().split(' ')
+num2 = int(num[0])
+num3 = int(num[1])
+num4 = int(num[2])
+
+num.sort(key=int)
+print(f'{num[0]}')
+print(f'{num[1]}')
+print(f'{num[2]}')
+print('')
+print(f'{num2}')
+print(f'{num3}')
+print(f'{num4}')
