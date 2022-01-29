@@ -20,7 +20,6 @@ public class URI1047{
         else {
             duracaoJogo = tempoEmMinutosFim - tempoEmMinutosInicio;
         }
-
-        System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n ", duracaoJogo/60, duracaoJogo%60);
+        System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", duracaoJogo/60, duracaoJogo%60);
     }
 }
