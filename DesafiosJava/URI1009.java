@@ -1,3 +1,5 @@
+package DesafiosJava;
+
 import java.util.Scanner;
 
 public class URI1009 { // para ser aceito no URI mude o nome da classe para Main
