@@ -19,7 +19,7 @@ public class URI1051{
         }
         else if (renda > 3000 && renda <= 4500){
             double calculo = 1000 *0.08;
-            calculo += (renda - 3000) *0.18;
+            calculo += (renda - 3000) * 0.18;
             System.out.println("R$ "+df.format(calculo));
         }
         else{
