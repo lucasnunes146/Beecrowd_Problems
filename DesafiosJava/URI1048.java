@@ -8,12 +8,12 @@ public class URI1048 {
         double salario = entrada.nextDouble();
         entrada.close();
 
-        double reajusteGanho = 1;
-        int percentual = 1; 
-        double novoSalario = 1;
-        
+        double reajusteGanho;
+        int percentual; 
+        double novoSalario;
+
         if (salario >= 0 && salario <= 400.00){
-            percentual = percentual * 15;
+            percentual = 15;
             reajusteGanho = salario * 0.15;
             novoSalario = salario + reajusteGanho;
         }
@@ -32,7 +32,7 @@ public class URI1048 {
             reajusteGanho = salario * 0.07;
             novoSalario = salario + reajusteGanho;
         }
-        else if (salario > 2000.00){
+        else{
             percentual = 4;
             reajusteGanho = salario * 0.04;
             novoSalario = salario + reajusteGanho;
