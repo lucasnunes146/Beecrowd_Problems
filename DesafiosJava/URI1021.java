@@ -1,5 +1,3 @@
-package DesafiosJava;
-
 import java.util.Scanner;
 
 public class URI1021{
