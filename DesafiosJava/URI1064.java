@@ -10,13 +10,11 @@ public class URI1064 {
             valores = entrada.nextDouble();
             if(valores > 0){
                 aux = aux + 1;
-                calculo = calculo + valores;
+                calculo = calculo + valores; 
                 }
         }
-        calculo = calculo / aux;
-
         System.out.println(aux+" valores positivos");
-        System.out.println(String.format("%.1f", calculo));
+        System.out.printf("%.1f\n", calculo / aux);
         entrada.close();
     }
 }
