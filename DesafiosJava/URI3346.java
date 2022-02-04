@@ -5,7 +5,6 @@ public class URI3346 {
         Scanner entrada = new Scanner(System.in);
         String[] valores = entrada.nextLine().split(" ");
 
-
         double f1 = ((Double.parseDouble(valores[0]) / 100)+1);
         double f2 = ((Double.parseDouble(valores[1]) / 100)+1);
 
