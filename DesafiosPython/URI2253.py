@@ -16,7 +16,7 @@ while True:
                 elif ord(senha[i]) > 47 and ord(senha[i]) < 58:
                     numero = True
                 else:
-                    maiucula = False
+                    maiuscula = False
                     break
 
             if(maiuscula and minuscula and numero):
